@@ -109,10 +109,3 @@ void getSize(){
   
 }
 }
-boolean intersects(Car car) {
-if ((ypos > car.getY() && ypos < car.getY()+50) && (xpos > car.getX() && xpos < car.getX()+car.getSize()))
-          return true;
-    else 
-        return false;
-}
-
